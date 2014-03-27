@@ -108,8 +108,8 @@
     <!-- If this is true, the IME will be shown at screen on for keyguard password view -->
     <bool name="kg_show_ime_at_screen_on">false</bool>
 
-    <!-- Allow the menu hard key to be disabled in LockScreen on some devices -->
-    <bool name="config_disableMenuKeyInLockScreen">true</bool>
+    <!-- Allow the menu hard key to be disabled in LockScreen on some devices 
+    <bool name="config_disableMenuKeyInLockScreen">true</bool> -->
 
     <!-- Do not translate!
          The URL that should be sent in an x-wap-profile header with an HTTP request.
@@ -249,13 +249,18 @@
          flag is set for wifi displays.
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+
+<<<<<<< HEAD
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
 
     <bool name="config_useDevInputEventForAudioJack">true</bool>
-    <!--
+<!--
+=======
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
     <bool name="config_enableTorch">true</bool>
-    -->
+-->    
+
     <!-- Disable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
 </resources>
