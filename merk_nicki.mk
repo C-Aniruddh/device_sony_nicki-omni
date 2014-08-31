@@ -14,10 +14,10 @@
 # limitations under the License.
 
 # Inherit Omni GSM telephony parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/merk/config/gsm.mk)
 
 # Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/merk/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/sony/nicki/nicki.mk)
@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 480
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := nicki
-PRODUCT_NAME := omni_nicki
+PRODUCT_NAME := merk_nicki
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := C1905
 PRODUCT_MANUFACTURER := Sony
